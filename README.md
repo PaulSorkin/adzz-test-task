@@ -1,32 +1,31 @@
-# adzz-test-task
+# ADZZ Test Task
 
-## Installation
+## Task
+According to the official React Admin documentation from the Tutorial section, create a test application. You don't need to come up with anything new. It is important to consistently repeat the steps of the documentation and deal with the problems that will arise along the way.
 
-Install the application dependencies by running:
+### Stack
+- JavaScript: https://www.w3schools.com/js/
+- TypeScript: https://www.typescriptlang.org/
+- React: https://react.dev/
+- React Admin: https://marmelab.com/
+- Yarn: https://yarnpkg.com/
+- Vite: https://vitejs.dev/
+
+### Result
+After running the test task, we want to see a working application, an example of which can be seen at the end of the React Admin tutorial. This application must be hosted on GitHub. The repository should have a README file with instructions for running the application.
+
+## To run the application
+
+1. Install the application dependencies by running:
 
 ```sh
 yarn
 ```
 
-## Development
-
-Start the application in development mode by running:
+2. Start the application in development mode by running:
 
 ```sh
 yarn dev
 ```
 
-## Production
-
-Build the application in production mode by running:
-
-```sh
-yarn build
-```
-
-## DataProvider
-
-The included data provider use [ra-data-json-server](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-json-server). It fits REST APIs powered by [JSON Server](https://github.com/typicode/json-server), such as [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
-
-You'll find an `.env` file at the project root that includes a `VITE_JSON_SERVER_URL` variable. Set it to the URL of your backend. By default, we set it to targets [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
-
+3. You should be up and running with the React admin application on port 5173.
