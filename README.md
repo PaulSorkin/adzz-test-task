@@ -16,16 +16,25 @@ After running the test task, we want to see a working application, an example of
 
 ## To run the application
 
-1. Install the application dependencies by running:
+1. Clone this repo
+
+2. Go to folder `adzz-test-task`:
+```sh
+cd adzz-test-task 
+```
+
+3. Install the application dependencies by running:
 
 ```sh
 yarn
 ```
 
-2. Start the application in development mode by running:
+4. Start the application in development mode by running:
 
 ```sh
 yarn dev
 ```
 
-3. You should be up and running with the React admin application on port 5173.
+5. Chose either Local or Network option
+
+6. You should be up and running with the React admin application on port 5173.
